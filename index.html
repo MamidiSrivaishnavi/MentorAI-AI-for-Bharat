@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>MentorAI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+<div class="header">
+<h2>MentorAI</h2>
+<p>Confusion-aware AI mentor</p>
+<button class="new-chat" onclick="newChat()">New Chat</button>
+</div>
+
+<div id="chatbox" class="chatbox">
+
+<div class="message bot">
+Hello! Tell me what you're learning or stuck on.
+</div>
+
+</div>
+
+<div class="input-area">
+<input id="userInput" placeholder="Ask your doubt..." />
+<button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
