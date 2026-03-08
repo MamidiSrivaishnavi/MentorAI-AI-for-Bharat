@@ -1,8 +1,8 @@
 # MentorAI – AI for Bharat
 
-MentorAI is a confusion-aware AI mentor designed to help students understand programming concepts through guided explanations rather than overwhelming answers.
+MentorAI is a confusion-aware AI mentor designed to help the user understand diverse concepts through guided explanations rather than overwhelming answers.
 
-The system encourages interactive learning by providing short explanations first, then gradually expanding into examples and step-by-step guidance when the student requests it.
+The system encourages interactive learning by providing short explanations first, then gradually expanding into examples and step-by-step guidance when the user requests it.
 
 ---
 
@@ -11,7 +11,7 @@ The system encourages interactive learning by providing short explanations first
 MentorAI aims to simulate how a human mentor teaches a concept:
 
 1. Provide a short explanation.
-2. Ask if the student wants more details.
+2. Ask if the user wants more details.
 3. Provide examples or step-by-step reasoning.
 4. Continue the conversation interactively.
 
@@ -21,7 +21,7 @@ This approach helps beginners learn without information overload.
 
 ## Features
 
-* Interactive AI mentor for programming concepts
+* Interactive AI mentor for diverse concepts
 * Conversation-based learning
 * Step-by-step explanations
 * Conversation history stored using DynamoDB
@@ -87,31 +87,10 @@ Frontend deployed using Vercel.
 After deployment the live link will be available at:
 
 ```
-Add deployment link here
-```
-
-Example:
-
-```
 https://mentorai-ai-for-bharat.vercel.app
 ```
-
 ---
 
-## Security Considerations
-
-* API throttling enabled through API Gateway
-* No AWS credentials stored in the repository
-* Environment files ignored using `.gitignore`
-
----
-
-## Author
-
-Srivaishnavi Mamidi
-BTech Computer Science Student
-
----
 
 ## Future Improvements
 
